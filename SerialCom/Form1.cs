@@ -247,10 +247,13 @@ namespace SerialCom
             // Saída para o textbox com a hora atual
             DateTime dateTimeNow = DateTime.Now;
             string timeNow = DateTime.Now.ToString("HH:mm:ss");
+
             textBoxReceive.Invoke((MethodInvoker)delegate
             {
-                textBoxReceive.Text += $"{timeNow}\r\n";
-                textBoxReceive.ForeColor = Color.Red;
+                textBoxReceive.Text += $"{timeNow}";
+                textBoxReceive.AppendText(" : "); // Adiciona um espaço após o horário
+
+
             });
 
             string input = serialPort.ReadExisting();

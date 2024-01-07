@@ -76,86 +76,87 @@
             // 
             // menuStrip1
             // 
+            resources.ApplyResources(this.menuStrip1, "menuStrip1");
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.MenuFile,
             this.MenuTools,
             this.MenuSetting,
             this.MenuIHelp});
-            resources.ApplyResources(this.menuStrip1, "menuStrip1");
             this.menuStrip1.Name = "menuStrip1";
             // 
             // MenuFile
             // 
+            resources.ApplyResources(this.MenuFile, "MenuFile");
             this.MenuFile.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.SaveReceiveDataToFileToolStripMenuItem,
             this.ExitToolStripMenuItem});
             this.MenuFile.Name = "MenuFile";
-            resources.ApplyResources(this.MenuFile, "MenuFile");
             // 
             // SaveReceiveDataToFileToolStripMenuItem
             // 
-            this.SaveReceiveDataToFileToolStripMenuItem.Name = "SaveReceiveDataToFileToolStripMenuItem";
             resources.ApplyResources(this.SaveReceiveDataToFileToolStripMenuItem, "SaveReceiveDataToFileToolStripMenuItem");
+            this.SaveReceiveDataToFileToolStripMenuItem.Name = "SaveReceiveDataToFileToolStripMenuItem";
             this.SaveReceiveDataToFileToolStripMenuItem.Click += new System.EventHandler(this.SaveReceiveDataToFileToolStripMenuItem_Click);
             // 
             // ExitToolStripMenuItem
             // 
-            this.ExitToolStripMenuItem.Name = "ExitToolStripMenuItem";
             resources.ApplyResources(this.ExitToolStripMenuItem, "ExitToolStripMenuItem");
+            this.ExitToolStripMenuItem.Name = "ExitToolStripMenuItem";
             this.ExitToolStripMenuItem.Click += new System.EventHandler(this.ExitToolStripMenuItem_Click);
             // 
             // MenuTools
             // 
-            this.MenuTools.Name = "MenuTools";
             resources.ApplyResources(this.MenuTools, "MenuTools");
+            this.MenuTools.Name = "MenuTools";
             // 
             // MenuSetting
             // 
+            resources.ApplyResources(this.MenuSetting, "MenuSetting");
             this.MenuSetting.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.ResetPortConfToolStripMenuItem});
             this.MenuSetting.Name = "MenuSetting";
-            resources.ApplyResources(this.MenuSetting, "MenuSetting");
             // 
             // ResetPortConfToolStripMenuItem
             // 
-            this.ResetPortConfToolStripMenuItem.Name = "ResetPortConfToolStripMenuItem";
             resources.ApplyResources(this.ResetPortConfToolStripMenuItem, "ResetPortConfToolStripMenuItem");
+            this.ResetPortConfToolStripMenuItem.Name = "ResetPortConfToolStripMenuItem";
             this.ResetPortConfToolStripMenuItem.Click += new System.EventHandler(this.ResetPortConfToolStripMenuItem_Click);
             // 
             // MenuIHelp
             // 
+            resources.ApplyResources(this.MenuIHelp, "MenuIHelp");
             this.MenuIHelp.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.AboutToolStripMenuItem});
             this.MenuIHelp.Name = "MenuIHelp";
-            resources.ApplyResources(this.MenuIHelp, "MenuIHelp");
             // 
             // AboutToolStripMenuItem
             // 
+            resources.ApplyResources(this.AboutToolStripMenuItem, "AboutToolStripMenuItem");
             this.AboutToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.AuthorToolStripMenuItem,
             this.ContributorSylvesterLiToolStripMenuItem});
             this.AboutToolStripMenuItem.Name = "AboutToolStripMenuItem";
-            resources.ApplyResources(this.AboutToolStripMenuItem, "AboutToolStripMenuItem");
             // 
             // AuthorToolStripMenuItem
             // 
-            this.AuthorToolStripMenuItem.Name = "AuthorToolStripMenuItem";
             resources.ApplyResources(this.AuthorToolStripMenuItem, "AuthorToolStripMenuItem");
+            this.AuthorToolStripMenuItem.Name = "AuthorToolStripMenuItem";
             // 
             // ContributorSylvesterLiToolStripMenuItem
             // 
-            this.ContributorSylvesterLiToolStripMenuItem.Name = "ContributorSylvesterLiToolStripMenuItem";
             resources.ApplyResources(this.ContributorSylvesterLiToolStripMenuItem, "ContributorSylvesterLiToolStripMenuItem");
+            this.ContributorSylvesterLiToolStripMenuItem.Name = "ContributorSylvesterLiToolStripMenuItem";
             // 
             // toolStrip1
             // 
-            this.toolStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             resources.ApplyResources(this.toolStrip1, "toolStrip1");
+            this.toolStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.toolStrip1.Name = "toolStrip1";
             // 
             // groupBoxSerialPortSetting
             // 
+            resources.ApplyResources(this.groupBoxSerialPortSetting, "groupBoxSerialPortSetting");
             this.groupBoxSerialPortSetting.Controls.Add(this.comboBoxStopBit);
             this.groupBoxSerialPortSetting.Controls.Add(this.comboBoxCheckBit);
             this.groupBoxSerialPortSetting.Controls.Add(this.comboBoxDataBit);
@@ -166,37 +167,36 @@
             this.groupBoxSerialPortSetting.Controls.Add(this.label3);
             this.groupBoxSerialPortSetting.Controls.Add(this.label2);
             this.groupBoxSerialPortSetting.Controls.Add(this.label1);
-            resources.ApplyResources(this.groupBoxSerialPortSetting, "groupBoxSerialPortSetting");
             this.groupBoxSerialPortSetting.Name = "groupBoxSerialPortSetting";
             this.groupBoxSerialPortSetting.TabStop = false;
             // 
             // comboBoxStopBit
             // 
+            resources.ApplyResources(this.comboBoxStopBit, "comboBoxStopBit");
             this.comboBoxStopBit.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxStopBit.FormattingEnabled = true;
-            resources.ApplyResources(this.comboBoxStopBit, "comboBoxStopBit");
             this.comboBoxStopBit.Name = "comboBoxStopBit";
             // 
             // comboBoxCheckBit
             // 
+            resources.ApplyResources(this.comboBoxCheckBit, "comboBoxCheckBit");
             this.comboBoxCheckBit.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxCheckBit.FormattingEnabled = true;
-            resources.ApplyResources(this.comboBoxCheckBit, "comboBoxCheckBit");
             this.comboBoxCheckBit.Name = "comboBoxCheckBit";
             // 
             // comboBoxDataBit
             // 
+            resources.ApplyResources(this.comboBoxDataBit, "comboBoxDataBit");
             this.comboBoxDataBit.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxDataBit.FormattingEnabled = true;
-            resources.ApplyResources(this.comboBoxDataBit, "comboBoxDataBit");
             this.comboBoxDataBit.Name = "comboBoxDataBit";
             this.comboBoxDataBit.SelectedIndexChanged += new System.EventHandler(this.comboBoxDataBit_SelectedIndexChanged);
             // 
             // comboBoxBaudRate
             // 
+            resources.ApplyResources(this.comboBoxBaudRate, "comboBoxBaudRate");
             this.comboBoxBaudRate.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxBaudRate.FormattingEnabled = true;
-            resources.ApplyResources(this.comboBoxBaudRate, "comboBoxBaudRate");
             this.comboBoxBaudRate.Name = "comboBoxBaudRate";
             this.comboBoxBaudRate.SelectedIndexChanged += new System.EventHandler(this.comboBoxBaudRate_SelectedIndexChanged);
             // 
@@ -243,9 +243,9 @@
             // 
             // groupBoxSendSetting
             // 
+            resources.ApplyResources(this.groupBoxSendSetting, "groupBoxSendSetting");
             this.groupBoxSendSetting.Controls.Add(this.radioButtonSendDataHex);
             this.groupBoxSendSetting.Controls.Add(this.radioButtonSendDataASCII);
-            resources.ApplyResources(this.groupBoxSendSetting, "groupBoxSendSetting");
             this.groupBoxSendSetting.Name = "groupBoxSendSetting";
             this.groupBoxSendSetting.TabStop = false;
             // 
@@ -265,9 +265,9 @@
             // 
             // groupBoxReceiveSetting
             // 
+            resources.ApplyResources(this.groupBoxReceiveSetting, "groupBoxReceiveSetting");
             this.groupBoxReceiveSetting.Controls.Add(this.radioButtonReceiveDataHEX);
             this.groupBoxReceiveSetting.Controls.Add(this.radioButtonReceiveDataASCII);
-            resources.ApplyResources(this.groupBoxReceiveSetting, "groupBoxReceiveSetting");
             this.groupBoxReceiveSetting.Name = "groupBoxReceiveSetting";
             this.groupBoxReceiveSetting.TabStop = false;
             this.groupBoxReceiveSetting.Enter += new System.EventHandler(this.groupBoxReceiveSetting_Enter);
@@ -290,7 +290,6 @@
             // 
             resources.ApplyResources(this.groupBoxReceiveData, "groupBoxReceiveData");
             this.groupBoxReceiveData.Controls.Add(this.buttonClearRecData);
-            this.groupBoxReceiveData.Controls.Add(this.textBoxReceive);
             this.groupBoxReceiveData.Name = "groupBoxReceiveData";
             this.groupBoxReceiveData.TabStop = false;
             // 
@@ -338,6 +337,7 @@
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.Button_Refresh);
+            this.Controls.Add(this.textBoxReceive);
             this.Controls.Add(this.groupBoxSendData);
             this.Controls.Add(this.groupBoxReceiveData);
             this.Controls.Add(this.groupBoxReceiveSetting);
@@ -358,7 +358,6 @@
             this.groupBoxReceiveSetting.ResumeLayout(false);
             this.groupBoxReceiveSetting.PerformLayout();
             this.groupBoxReceiveData.ResumeLayout(false);
-            this.groupBoxReceiveData.PerformLayout();
             this.groupBoxSendData.ResumeLayout(false);
             this.groupBoxSendData.PerformLayout();
             this.ResumeLayout(false);

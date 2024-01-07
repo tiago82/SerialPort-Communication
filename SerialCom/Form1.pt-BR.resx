@@ -166,6 +166,12 @@
   <data name="MenuIHelp.Text" xml:space="preserve">
     <value>Ajuda</value>
   </data>
+  <data name="menuStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1225, 24</value>
+  </data>
+  <data name="toolStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1225, 25</value>
+  </data>
   <data name="comboBoxStopBit.Location" type="System.Drawing.Point, System.Drawing">
     <value>19, 221</value>
   </data>
@@ -254,19 +260,28 @@
     <value>Limpar</value>
   </data>
   <data name="groupBoxReceiveData.Size" type="System.Drawing.Size, System.Drawing">
-    <value>276, 264</value>
+    <value>932, 264</value>
   </data>
   <data name="groupBoxReceiveData.Text" xml:space="preserve">
     <value>Receber dados</value>
   </data>
+  <data name="textBoxReceive.Location" type="System.Drawing.Point, System.Drawing">
+    <value>260, 106</value>
+  </data>
+  <data name="textBoxReceive.Size" type="System.Drawing.Size, System.Drawing">
+    <value>929, 193</value>
+  </data>
   <data name="buttonSendData.Text" xml:space="preserve">
     <value>Enviar</value>
+  </data>
+  <data name="textBoxSend.Size" type="System.Drawing.Size, System.Drawing">
+    <value>926, 45</value>
   </data>
   <data name="groupBoxSendData.Location" type="System.Drawing.Point, System.Drawing">
     <value>254, 357</value>
   </data>
   <data name="groupBoxSendData.Size" type="System.Drawing.Size, System.Drawing">
-    <value>276, 113</value>
+    <value>932, 113</value>
   </data>
   <data name="groupBoxSendData.Text" xml:space="preserve">
     <value>Enviar dados</value>
@@ -275,7 +290,7 @@
     <value>Atualizar a lista de portas seriais</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>569, 521</value>
+    <value>1225, 521</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>

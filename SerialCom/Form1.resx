@@ -117,788 +117,779 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="SaveReceiveDataToFileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>146, 22</value>
-  </data>
-  <data name="SaveReceiveDataToFileToolStripMenuItem.Text" xml:space="preserve">
-    <value>保存接收数据</value>
-  </data>
-  <data name="ExitToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>146, 22</value>
-  </data>
-  <data name="ExitToolStripMenuItem.Text" xml:space="preserve">
-    <value>退出</value>
-  </data>
-  <data name="MenuFile.Size" type="System.Drawing.Size, System.Drawing">
-    <value>43, 20</value>
-  </data>
-  <data name="MenuFile.Text" xml:space="preserve">
-    <value>文件</value>
-  </data>
-  <data name="MenuTools.Size" type="System.Drawing.Size, System.Drawing">
-    <value>43, 20</value>
-  </data>
-  <data name="MenuTools.Text" xml:space="preserve">
-    <value>工具</value>
-  </data>
-  <data name="ResetPortConfToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>147, 22</value>
-  </data>
-  <data name="ResetPortConfToolStripMenuItem.Text" xml:space="preserve">
-    <value>重置串口设置</value>
-  </data>
-  <data name="MenuSetting.Size" type="System.Drawing.Size, System.Drawing">
-    <value>44, 20</value>
-  </data>
-  <data name="MenuSetting.Text" xml:space="preserve">
-    <value>设置</value>
-  </data>
-  <data name="AuthorToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>175, 22</value>
-  </data>
-  <data name="AuthorToolStripMenuItem.Text" xml:space="preserve">
-    <value>作者：NaiHai</value>
-  </data>
-  <data name="ContributorSylvesterLiToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>175, 22</value>
-  </data>
-  <data name="ContributorSylvesterLiToolStripMenuItem.Text" xml:space="preserve">
-    <value>贡献者：Sylvester Li</value>
-  </data>
-  <data name="AboutToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>98, 22</value>
-  </data>
-  <data name="AboutToolStripMenuItem.Text" xml:space="preserve">
-    <value>关于</value>
-  </data>
-  <data name="MenuIHelp.Size" type="System.Drawing.Size, System.Drawing">
-    <value>43, 20</value>
-  </data>
-  <data name="MenuIHelp.Text" xml:space="preserve">
-    <value>帮助</value>
-  </data>
-  <data name="menuStrip1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="menuStrip1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>569, 24</value>
+  <data name="groupBoxSendSetting.Text" xml:space="preserve">
+    <value>发送设置</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="menuStrip1.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="menuStrip1.Text" xml:space="preserve">
-    <value>menuStrip1</value>
-  </data>
-  <data name="&gt;&gt;menuStrip1.Name" xml:space="preserve">
-    <value>menuStrip1</value>
-  </data>
-  <data name="&gt;&gt;menuStrip1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;menuStrip1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;menuStrip1.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <metadata name="toolStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>137, 17</value>
-  </metadata>
-  <data name="toolStrip1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 24</value>
-  </data>
-  <data name="toolStrip1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>569, 25</value>
-  </data>
-  <data name="toolStrip1.TabIndex" type="System.Int32, mscorlib">
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
-  </data>
-  <data name="toolStrip1.Text" xml:space="preserve">
-    <value>toolStrip1</value>
-  </data>
-  <data name="&gt;&gt;toolStrip1.Name" xml:space="preserve">
-    <value>toolStrip1</value>
-  </data>
-  <data name="&gt;&gt;toolStrip1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;toolStrip1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;toolStrip1.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="comboBoxStopBit.Location" type="System.Drawing.Point, System.Drawing">
-    <value>63, 171</value>
-  </data>
-  <data name="comboBoxStopBit.Size" type="System.Drawing.Size, System.Drawing">
-    <value>121, 25</value>
-  </data>
-  <data name="comboBoxStopBit.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
-  </data>
-  <data name="&gt;&gt;comboBoxStopBit.Name" xml:space="preserve">
-    <value>comboBoxStopBit</value>
-  </data>
-  <data name="&gt;&gt;comboBoxStopBit.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;comboBoxStopBit.Parent" xml:space="preserve">
-    <value>groupBoxSerialPortSetting</value>
-  </data>
-  <data name="&gt;&gt;comboBoxStopBit.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="comboBoxCheckBit.Location" type="System.Drawing.Point, System.Drawing">
-    <value>63, 133</value>
-  </data>
-  <data name="comboBoxCheckBit.Size" type="System.Drawing.Size, System.Drawing">
-    <value>121, 25</value>
   </data>
   <data name="comboBoxCheckBit.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
   </data>
-  <data name="&gt;&gt;comboBoxCheckBit.Name" xml:space="preserve">
-    <value>comboBoxCheckBit</value>
-  </data>
-  <data name="&gt;&gt;comboBoxCheckBit.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;comboBoxCheckBit.Parent" xml:space="preserve">
-    <value>groupBoxSerialPortSetting</value>
-  </data>
-  <data name="&gt;&gt;comboBoxCheckBit.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="comboBoxDataBit.Location" type="System.Drawing.Point, System.Drawing">
-    <value>63, 99</value>
-  </data>
-  <data name="comboBoxDataBit.Size" type="System.Drawing.Size, System.Drawing">
-    <value>121, 25</value>
-  </data>
-  <data name="comboBoxDataBit.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;comboBoxDataBit.Name" xml:space="preserve">
-    <value>comboBoxDataBit</value>
-  </data>
-  <data name="&gt;&gt;comboBoxDataBit.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;comboBoxDataBit.Parent" xml:space="preserve">
-    <value>groupBoxSerialPortSetting</value>
-  </data>
-  <data name="&gt;&gt;comboBoxDataBit.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="comboBoxBaudRate.Location" type="System.Drawing.Point, System.Drawing">
-    <value>63, 65</value>
-  </data>
-  <data name="comboBoxBaudRate.Size" type="System.Drawing.Size, System.Drawing">
-    <value>121, 25</value>
-  </data>
-  <data name="comboBoxBaudRate.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;comboBoxBaudRate.Name" xml:space="preserve">
-    <value>comboBoxBaudRate</value>
-  </data>
-  <data name="&gt;&gt;comboBoxBaudRate.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;comboBoxBaudRate.Parent" xml:space="preserve">
-    <value>groupBoxSerialPortSetting</value>
-  </data>
-  <data name="&gt;&gt;comboBoxBaudRate.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="comboBoxCom.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Bottom, Left</value>
-  </data>
-  <data name="comboBoxCom.Location" type="System.Drawing.Point, System.Drawing">
-    <value>63, 34</value>
-  </data>
-  <data name="comboBoxCom.Size" type="System.Drawing.Size, System.Drawing">
-    <value>121, 25</value>
-  </data>
-  <data name="comboBoxCom.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;comboBoxCom.Name" xml:space="preserve">
-    <value>comboBoxCom</value>
-  </data>
-  <data name="&gt;&gt;comboBoxCom.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;comboBoxCom.Parent" xml:space="preserve">
-    <value>groupBoxSerialPortSetting</value>
-  </data>
-  <data name="&gt;&gt;comboBoxCom.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="label5.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>17, 174</value>
-  </data>
-  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>44, 17</value>
-  </data>
-  <data name="label5.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="label5.Text" xml:space="preserve">
-    <value>停止位</value>
-  </data>
-  <data name="label5.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleRight</value>
-  </data>
-  <data name="&gt;&gt;label5.Name" xml:space="preserve">
-    <value>label5</value>
-  </data>
-  <data name="&gt;&gt;label5.Type" xml:space="preserve">
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
-    <value>groupBoxSerialPortSetting</value>
-  </data>
-  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>17, 136</value>
-  </data>
-  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>44, 17</value>
-  </data>
-  <data name="label4.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="label4.Text" xml:space="preserve">
-    <value>校验位</value>
-  </data>
-  <data name="label4.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleRight</value>
-  </data>
-  <data name="&gt;&gt;label4.Name" xml:space="preserve">
-    <value>label4</value>
-  </data>
-  <data name="&gt;&gt;label4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
-    <value>groupBoxSerialPortSetting</value>
-  </data>
-  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>17, 102</value>
-  </data>
-  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>44, 17</value>
-  </data>
-  <data name="label3.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="label3.Text" xml:space="preserve">
-    <value>数据位</value>
-  </data>
-  <data name="label3.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleRight</value>
-  </data>
-  <data name="&gt;&gt;label3.Name" xml:space="preserve">
-    <value>label3</value>
-  </data>
-  <data name="&gt;&gt;label3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="AboutToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 22</value>
   </data>
   <data name="&gt;&gt;label3.Parent" xml:space="preserve">
     <value>groupBoxSerialPortSetting</value>
   </data>
-  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
-    <value>7</value>
+  <data name="&gt;&gt;ResetPortConfToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="&gt;&gt;MenuIHelp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>17, 70</value>
+  <data name="&gt;&gt;groupBoxSendData.Name" xml:space="preserve">
+    <value>groupBoxSendData</value>
   </data>
-  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>44, 17</value>
+  <data name="MenuFile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 20</value>
   </data>
-  <data name="label2.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="label2.Text" xml:space="preserve">
-    <value>波特率</value>
-  </data>
-  <data name="label2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleRight</value>
-  </data>
-  <data name="&gt;&gt;label2.Name" xml:space="preserve">
-    <value>label2</value>
-  </data>
-  <data name="&gt;&gt;label2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+  <data name="&gt;&gt;comboBoxDataBit.Parent" xml:space="preserve">
     <value>groupBoxSerialPortSetting</value>
   </data>
-  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="label1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Bottom, Left</value>
-  </data>
-  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>17, 37</value>
-  </data>
-  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>44, 17</value>
-  </data>
-  <data name="label1.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="label1.Text" xml:space="preserve">
-    <value>端   口</value>
-  </data>
-  <data name="label1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleRight</value>
-  </data>
-  <data name="&gt;&gt;label1.Name" xml:space="preserve">
-    <value>label1</value>
-  </data>
-  <data name="&gt;&gt;label1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
-    <value>groupBoxSerialPortSetting</value>
-  </data>
-  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+  <data name="comboBoxStopBit.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
   </data>
-  <data name="groupBoxSerialPortSetting.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 53</value>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="groupBoxSerialPortSetting.Size" type="System.Drawing.Size, System.Drawing">
-    <value>200, 219</value>
-  </data>
-  <data name="groupBoxSerialPortSetting.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="groupBoxSerialPortSetting.Text" xml:space="preserve">
-    <value>串口设置</value>
-  </data>
-  <data name="&gt;&gt;groupBoxSerialPortSetting.Name" xml:space="preserve">
-    <value>groupBoxSerialPortSetting</value>
-  </data>
-  <data name="&gt;&gt;groupBoxSerialPortSetting.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBoxSerialPortSetting.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;groupBoxSerialPortSetting.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="buttonOpenCloseCom.Location" type="System.Drawing.Point, System.Drawing">
-    <value>413, 38</value>
-  </data>
-  <data name="buttonOpenCloseCom.Size" type="System.Drawing.Size, System.Drawing">
-    <value>111, 38</value>
-  </data>
-  <data name="buttonOpenCloseCom.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="buttonOpenCloseCom.Text" xml:space="preserve">
-    <value>打开串口</value>
-  </data>
-  <data name="&gt;&gt;buttonOpenCloseCom.Name" xml:space="preserve">
-    <value>buttonOpenCloseCom</value>
-  </data>
-  <data name="&gt;&gt;buttonOpenCloseCom.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;buttonOpenCloseCom.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;buttonOpenCloseCom.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="radioButtonSendDataHex.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="radioButtonSendDataHex.Location" type="System.Drawing.Point, System.Drawing">
-    <value>82, 22</value>
-  </data>
-  <data name="radioButtonSendDataHex.Size" type="System.Drawing.Size, System.Drawing">
-    <value>50, 21</value>
-  </data>
-  <data name="radioButtonSendDataHex.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="radioButtonSendDataHex.Text" xml:space="preserve">
-    <value>HEX</value>
+  <data name="&gt;&gt;MenuSetting.Name" xml:space="preserve">
+    <value>MenuSetting</value>
   </data>
   <data name="&gt;&gt;radioButtonSendDataHex.Name" xml:space="preserve">
     <value>radioButtonSendDataHex</value>
   </data>
-  <data name="&gt;&gt;radioButtonSendDataHex.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;radioButtonSendDataHex.Parent" xml:space="preserve">
-    <value>groupBoxSendSetting</value>
-  </data>
-  <data name="&gt;&gt;radioButtonSendDataHex.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="radioButtonSendDataASCII.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="radioButtonSendDataASCII.Location" type="System.Drawing.Point, System.Drawing">
-    <value>19, 23</value>
-  </data>
-  <data name="radioButtonSendDataASCII.Size" type="System.Drawing.Size, System.Drawing">
-    <value>57, 21</value>
-  </data>
-  <data name="radioButtonSendDataASCII.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="radioButtonSendDataASCII.Text" xml:space="preserve">
-    <value>ASCII</value>
-  </data>
-  <data name="&gt;&gt;radioButtonSendDataASCII.Name" xml:space="preserve">
-    <value>radioButtonSendDataASCII</value>
-  </data>
-  <data name="&gt;&gt;radioButtonSendDataASCII.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;radioButtonSendDataASCII.Parent" xml:space="preserve">
-    <value>groupBoxSendSetting</value>
-  </data>
-  <data name="&gt;&gt;radioButtonSendDataASCII.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;textBoxSend.ZOrder" xml:space="preserve">
     <value>1</value>
-  </data>
-  <data name="groupBoxSendSetting.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 278</value>
-  </data>
-  <data name="groupBoxSendSetting.Size" type="System.Drawing.Size, System.Drawing">
-    <value>200, 100</value>
-  </data>
-  <data name="groupBoxSendSetting.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="groupBoxSendSetting.Text" xml:space="preserve">
-    <value>发送设置</value>
-  </data>
-  <data name="&gt;&gt;groupBoxSendSetting.Name" xml:space="preserve">
-    <value>groupBoxSendSetting</value>
-  </data>
-  <data name="&gt;&gt;groupBoxSendSetting.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBoxSendSetting.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;groupBoxSendSetting.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="radioButtonReceiveDataHEX.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="radioButtonReceiveDataHEX.Location" type="System.Drawing.Point, System.Drawing">
-    <value>82, 22</value>
-  </data>
-  <data name="radioButtonReceiveDataHEX.Size" type="System.Drawing.Size, System.Drawing">
-    <value>50, 21</value>
-  </data>
-  <data name="radioButtonReceiveDataHEX.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="radioButtonReceiveDataHEX.Text" xml:space="preserve">
-    <value>HEX</value>
-  </data>
-  <data name="&gt;&gt;radioButtonReceiveDataHEX.Name" xml:space="preserve">
-    <value>radioButtonReceiveDataHEX</value>
-  </data>
-  <data name="&gt;&gt;radioButtonReceiveDataHEX.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;radioButtonReceiveDataHEX.Parent" xml:space="preserve">
-    <value>groupBoxReceiveSetting</value>
-  </data>
-  <data name="&gt;&gt;radioButtonReceiveDataHEX.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="radioButtonReceiveDataASCII.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="radioButtonReceiveDataASCII.Location" type="System.Drawing.Point, System.Drawing">
-    <value>19, 22</value>
-  </data>
-  <data name="radioButtonReceiveDataASCII.Size" type="System.Drawing.Size, System.Drawing">
-    <value>57, 21</value>
-  </data>
-  <data name="radioButtonReceiveDataASCII.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="radioButtonReceiveDataASCII.Text" xml:space="preserve">
-    <value>ASCII</value>
   </data>
   <data name="&gt;&gt;radioButtonReceiveDataASCII.Name" xml:space="preserve">
     <value>radioButtonReceiveDataASCII</value>
   </data>
-  <data name="&gt;&gt;radioButtonReceiveDataASCII.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;radioButtonReceiveDataASCII.Parent" xml:space="preserve">
-    <value>groupBoxReceiveSetting</value>
-  </data>
-  <data name="&gt;&gt;radioButtonReceiveDataASCII.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="groupBoxReceiveSetting.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 384</value>
-  </data>
-  <data name="groupBoxReceiveSetting.Size" type="System.Drawing.Size, System.Drawing">
-    <value>200, 100</value>
-  </data>
-  <data name="groupBoxReceiveSetting.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="groupBoxReceiveSetting.Text" xml:space="preserve">
-    <value>接收设置</value>
-  </data>
-  <data name="&gt;&gt;groupBoxReceiveSetting.Name" xml:space="preserve">
-    <value>groupBoxReceiveSetting</value>
-  </data>
-  <data name="&gt;&gt;groupBoxReceiveSetting.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBoxReceiveSetting.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;groupBoxReceiveSetting.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="groupBoxReceiveData.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Bottom, Left, Right</value>
+  <data name="toolStrip1.Text" xml:space="preserve">
+    <value>toolStrip1</value>
   </data>
   <data name="buttonClearRecData.Location" type="System.Drawing.Point, System.Drawing">
     <value>195, 221</value>
   </data>
-  <data name="buttonClearRecData.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
+  <data name="label2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
   </data>
-  <data name="buttonClearRecData.TabIndex" type="System.Int32, mscorlib">
+  <data name="&gt;&gt;menuStrip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioButtonReceiveDataASCII.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="buttonClearRecData.Text" xml:space="preserve">
-    <value>清空</value>
-  </data>
-  <data name="&gt;&gt;buttonClearRecData.Name" xml:space="preserve">
-    <value>buttonClearRecData</value>
-  </data>
-  <data name="&gt;&gt;buttonClearRecData.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;buttonClearRecData.Parent" xml:space="preserve">
-    <value>groupBoxReceiveData</value>
-  </data>
-  <data name="&gt;&gt;buttonClearRecData.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="textBoxReceive.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="textBoxReceive.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 19</value>
-  </data>
-  <data name="textBoxReceive.Multiline" type="System.Boolean, mscorlib">
+  <data name="textBoxSend.Multiline" type="System.Boolean, mscorlib">
     <value>True</value>
-  </data>
-  <data name="textBoxReceive.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
-    <value>Vertical</value>
-  </data>
-  <data name="textBoxReceive.Size" type="System.Drawing.Size, System.Drawing">
-    <value>270, 193</value>
-  </data>
-  <data name="textBoxReceive.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;textBoxReceive.Name" xml:space="preserve">
-    <value>textBoxReceive</value>
-  </data>
-  <data name="&gt;&gt;textBoxReceive.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;textBoxReceive.Parent" xml:space="preserve">
-    <value>groupBoxReceiveData</value>
-  </data>
-  <data name="&gt;&gt;textBoxReceive.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="groupBoxReceiveData.Location" type="System.Drawing.Point, System.Drawing">
-    <value>254, 87</value>
-  </data>
-  <data name="groupBoxReceiveData.Size" type="System.Drawing.Size, System.Drawing">
-    <value>276, 249</value>
   </data>
   <data name="groupBoxReceiveData.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
   </data>
-  <data name="groupBoxReceiveData.Text" xml:space="preserve">
-    <value>接收数据</value>
+  <data name="&gt;&gt;buttonOpenCloseCom.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;Button_Refresh.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="comboBoxCheckBit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>63, 133</value>
+  </data>
+  <data name="groupBoxReceiveData.Size" type="System.Drawing.Size, System.Drawing">
+    <value>276, 249</value>
+  </data>
+  <data name="groupBoxSerialPortSetting.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 219</value>
+  </data>
+  <data name="radioButtonReceiveDataASCII.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 22</value>
+  </data>
+  <data name="MenuIHelp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 20</value>
+  </data>
+  <data name="toolStrip1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 24</value>
+  </data>
+  <data name="Button_Refresh.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;buttonSendData.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="&gt;&gt;groupBoxReceiveData.Name" xml:space="preserve">
     <value>groupBoxReceiveData</value>
   </data>
-  <data name="&gt;&gt;groupBoxReceiveData.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="comboBoxDataBit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 25</value>
   </data>
-  <data name="&gt;&gt;groupBoxReceiveData.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="groupBoxReceiveData.Location" type="System.Drawing.Point, System.Drawing">
+    <value>254, 87</value>
   </data>
-  <data name="&gt;&gt;groupBoxReceiveData.ZOrder" xml:space="preserve">
-    <value>2</value>
+  <data name="comboBoxDataBit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>63, 99</value>
   </data>
-  <data name="groupBoxSendData.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Bottom, Left, Right</value>
+  <data name="groupBoxSendSetting.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 278</value>
   </data>
-  <data name="buttonSendData.Location" type="System.Drawing.Point, System.Drawing">
-    <value>195, 71</value>
+  <data name="buttonOpenCloseCom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 38</value>
   </data>
-  <data name="buttonSendData.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
+  <data name="buttonClearRecData.Text" xml:space="preserve">
+    <value>清空</value>
   </data>
-  <data name="buttonSendData.TabIndex" type="System.Int32, mscorlib">
+  <data name="&gt;&gt;comboBoxCheckBit.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
   <data name="buttonSendData.Text" xml:space="preserve">
     <value>发送</value>
   </data>
+  <data name="&gt;&gt;comboBoxBaudRate.Parent" xml:space="preserve">
+    <value>groupBoxSerialPortSetting</value>
+  </data>
+  <data name="radioButtonReceiveDataASCII.Text" xml:space="preserve">
+    <value>ASCII</value>
+  </data>
+  <data name="&gt;&gt;groupBoxSendSetting.Name" xml:space="preserve">
+    <value>groupBoxSendSetting</value>
+  </data>
+  <data name="radioButtonReceiveDataHEX.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;comboBoxStopBit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="textBoxReceive.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="radioButtonReceiveDataHEX.Text" xml:space="preserve">
+    <value>HEX</value>
+  </data>
+  <data name="&gt;&gt;comboBoxCom.Parent" xml:space="preserve">
+    <value>groupBoxSerialPortSetting</value>
+  </data>
+  <data name="radioButtonSendDataASCII.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;radioButtonSendDataASCII.Name" xml:space="preserve">
+    <value>radioButtonSendDataASCII</value>
+  </data>
+  <data name="&gt;&gt;groupBoxReceiveData.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="radioButtonSendDataHex.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 21</value>
+  </data>
+  <data name="radioButtonReceiveDataASCII.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="comboBoxStopBit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>63, 171</value>
+  </data>
+  <data name="groupBoxSerialPortSetting.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 53</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>端   口</value>
+  </data>
+  <data name="ExitToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 22</value>
+  </data>
+  <data name="&gt;&gt;ExitToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="radioButtonSendDataHex.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="groupBoxReceiveSetting.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 384</value>
+  </data>
+  <data name="label4.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;radioButtonReceiveDataHEX.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;radioButtonSendDataASCII.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;comboBoxDataBit.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;toolStrip1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 9pt</value>
+  </data>
+  <data name="&gt;&gt;groupBoxSerialPortSetting.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBoxSerialPortSetting.Name" xml:space="preserve">
+    <value>groupBoxSerialPortSetting</value>
+  </data>
+  <data name="&gt;&gt;buttonClearRecData.Name" xml:space="preserve">
+    <value>buttonClearRecData</value>
+  </data>
+  <data name="radioButtonReceiveDataASCII.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="buttonOpenCloseCom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>413, 38</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 102</value>
+  </data>
+  <data name="ResetPortConfToolStripMenuItem.Text" xml:space="preserve">
+    <value>重置串口设置</value>
+  </data>
+  <data name="groupBoxSerialPortSetting.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="groupBoxSendSetting.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 100</value>
+  </data>
+  <data name="&gt;&gt;AuthorToolStripMenuItem.Name" xml:space="preserve">
+    <value>AuthorToolStripMenuItem</value>
+  </data>
   <data name="&gt;&gt;buttonSendData.Name" xml:space="preserve">
     <value>buttonSendData</value>
   </data>
-  <data name="&gt;&gt;buttonSendData.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="comboBoxCheckBit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 25</value>
   </data>
-  <data name="&gt;&gt;buttonSendData.Parent" xml:space="preserve">
-    <value>groupBoxSendData</value>
+  <data name="&gt;&gt;MenuIHelp.Name" xml:space="preserve">
+    <value>MenuIHelp</value>
   </data>
-  <data name="&gt;&gt;buttonSendData.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="&gt;&gt;radioButtonReceiveDataASCII.Parent" xml:space="preserve">
+    <value>groupBoxReceiveSetting</value>
   </data>
-  <data name="textBoxSend.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
+  <data name="&gt;&gt;textBoxReceive.Name" xml:space="preserve">
+    <value>textBoxReceive</value>
   </data>
-  <data name="textBoxSend.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 19</value>
+  <data name="&gt;&gt;comboBoxCom.Name" xml:space="preserve">
+    <value>comboBoxCom</value>
   </data>
-  <data name="textBoxSend.Multiline" type="System.Boolean, mscorlib">
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>groupBoxSerialPortSetting</value>
+  </data>
+  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="textBoxSend.Size" type="System.Drawing.Size, System.Drawing">
-    <value>270, 45</value>
+  <data name="textBoxReceive.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
-  <data name="textBoxSend.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>569, 512</value>
   </data>
-  <data name="&gt;&gt;textBoxSend.Name" xml:space="preserve">
-    <value>textBoxSend</value>
+  <data name="label4.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
   </data>
-  <data name="&gt;&gt;textBoxSend.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 17</value>
   </data>
-  <data name="&gt;&gt;textBoxSend.Parent" xml:space="preserve">
-    <value>groupBoxSendData</value>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>7</value>
   </data>
-  <data name="&gt;&gt;textBoxSend.ZOrder" xml:space="preserve">
-    <value>1</value>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
   </data>
-  <data name="groupBoxSendData.Location" type="System.Drawing.Point, System.Drawing">
-    <value>254, 384</value>
+  <data name="&gt;&gt;toolStrip1.ZOrder" xml:space="preserve">
+    <value>8</value>
   </data>
-  <data name="groupBoxSendData.Size" type="System.Drawing.Size, System.Drawing">
-    <value>276, 100</value>
+  <data name="menuStrip1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="label5.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="Button_Refresh.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 38</value>
+  </data>
+  <data name="&gt;&gt;radioButtonReceiveDataASCII.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="menuStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>569, 24</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.ZOrder" xml:space="preserve">
+    <value>9</value>
   </data>
   <data name="groupBoxSendData.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
   </data>
-  <data name="groupBoxSendData.Text" xml:space="preserve">
-    <value>发送数据</value>
+  <data name="&gt;&gt;MenuTools.Name" xml:space="preserve">
+    <value>MenuTools</value>
   </data>
-  <data name="&gt;&gt;groupBoxSendData.Name" xml:space="preserve">
+  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
+    <value>groupBoxSerialPortSetting</value>
+  </data>
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="buttonSendData.Location" type="System.Drawing.Point, System.Drawing">
+    <value>195, 71</value>
+  </data>
+  <data name="textBoxReceive.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;ExitToolStripMenuItem.Name" xml:space="preserve">
+    <value>ExitToolStripMenuItem</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;groupBoxSerialPortSetting.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="buttonSendData.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;comboBoxCom.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="comboBoxCom.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <data name="&gt;&gt;MenuSetting.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="textBoxSend.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="radioButtonReceiveDataHEX.Location" type="System.Drawing.Point, System.Drawing">
+    <value>82, 22</value>
+  </data>
+  <data name="MenuSetting.Text" xml:space="preserve">
+    <value>设置</value>
+  </data>
+  <data name="&gt;&gt;ResetPortConfToolStripMenuItem.Name" xml:space="preserve">
+    <value>ResetPortConfToolStripMenuItem</value>
+  </data>
+  <data name="radioButtonSendDataHex.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="comboBoxCom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>63, 34</value>
+  </data>
+  <data name="AuthorToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 22</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>groupBoxSerialPortSetting</value>
+  </data>
+  <data name="&gt;&gt;textBoxReceive.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 17</value>
+  </data>
+  <data name="buttonOpenCloseCom.Text" xml:space="preserve">
+    <value>打开串口</value>
+  </data>
+  <data name="SaveReceiveDataToFileToolStripMenuItem.Text" xml:space="preserve">
+    <value>保存接收数据</value>
+  </data>
+  <data name="radioButtonSendDataHex.Text" xml:space="preserve">
+    <value>HEX</value>
+  </data>
+  <data name="&gt;&gt;SaveReceiveDataToFileToolStripMenuItem.Name" xml:space="preserve">
+    <value>SaveReceiveDataToFileToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;comboBoxCheckBit.Parent" xml:space="preserve">
+    <value>groupBoxSerialPortSetting</value>
+  </data>
+  <data name="comboBoxStopBit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 25</value>
+  </data>
+  <data name="&gt;&gt;radioButtonReceiveDataHEX.Name" xml:space="preserve">
+    <value>radioButtonReceiveDataHEX</value>
+  </data>
+  <data name="&gt;&gt;Button_Refresh.Name" xml:space="preserve">
+    <value>Button_Refresh</value>
+  </data>
+  <data name="&gt;&gt;comboBoxCom.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonClearRecData.Parent" xml:space="preserve">
+    <value>groupBoxReceiveData</value>
+  </data>
+  <data name="Button_Refresh.Location" type="System.Drawing.Point, System.Drawing">
+    <value>254, 38</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="comboBoxCom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 25</value>
+  </data>
+  <data name="&gt;&gt;groupBoxReceiveData.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="textBoxReceive.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 19</value>
+  </data>
+  <data name="&gt;&gt;radioButtonReceiveDataHEX.Parent" xml:space="preserve">
+    <value>groupBoxReceiveSetting</value>
+  </data>
+  <data name="label1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;comboBoxCheckBit.Name" xml:space="preserve">
+    <value>comboBoxCheckBit</value>
+  </data>
+  <data name="groupBoxReceiveSetting.Text" xml:space="preserve">
+    <value>接收设置</value>
+  </data>
+  <data name="buttonClearRecData.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;groupBoxSerialPortSetting.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="groupBoxSendSetting.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="radioButtonSendDataASCII.Text" xml:space="preserve">
+    <value>ASCII</value>
+  </data>
+  <data name="&gt;&gt;buttonOpenCloseCom.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>groupBoxSerialPortSetting</value>
+  </data>
+  <data name="&gt;&gt;buttonOpenCloseCom.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;textBoxSend.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="radioButtonReceiveDataHEX.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 21</value>
+  </data>
+  <data name="&gt;&gt;comboBoxBaudRate.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;label5.Name" xml:space="preserve">
+    <value>label5</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;groupBoxSendSetting.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MenuSetting.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 20</value>
+  </data>
+  <data name="&gt;&gt;textBoxSend.Name" xml:space="preserve">
+    <value>textBoxSend</value>
+  </data>
+  <data name="groupBoxSendData.Size" type="System.Drawing.Size, System.Drawing">
+    <value>276, 100</value>
+  </data>
+  <data name="label3.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;comboBoxDataBit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;radioButtonSendDataASCII.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ResetPortConfToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>147, 22</value>
+  </data>
+  <data name="&gt;&gt;radioButtonSendDataHex.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;textBoxSend.Parent" xml:space="preserve">
     <value>groupBoxSendData</value>
   </data>
   <data name="&gt;&gt;groupBoxSendData.Type" xml:space="preserve">
     <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;groupBoxSendData.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;groupBoxSendData.ZOrder" xml:space="preserve">
+  <data name="buttonSendData.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="Button_Refresh.Location" type="System.Drawing.Point, System.Drawing">
-    <value>254, 38</value>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 136</value>
   </data>
-  <data name="Button_Refresh.Size" type="System.Drawing.Size, System.Drawing">
-    <value>110, 38</value>
+  <data name="groupBoxReceiveData.Text" xml:space="preserve">
+    <value>接收数据</value>
   </data>
-  <data name="Button_Refresh.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 17</value>
   </data>
-  <data name="Button_Refresh.Text" xml:space="preserve">
-    <value>刷新串口列表</value>
+  <data name="$this.Text" xml:space="preserve">
+    <value>串口调试软件</value>
   </data>
-  <data name="&gt;&gt;Button_Refresh.Name" xml:space="preserve">
-    <value>Button_Refresh</value>
+  <data name="&gt;&gt;radioButtonSendDataASCII.Parent" xml:space="preserve">
+    <value>groupBoxSendSetting</value>
   </data>
   <data name="&gt;&gt;Button_Refresh.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;Button_Refresh.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="&gt;&gt;groupBoxSendData.ZOrder" xml:space="preserve">
+    <value>2</value>
   </data>
-  <data name="&gt;&gt;Button_Refresh.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;MenuTools.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 17</value>
+  </data>
+  <data name="groupBoxReceiveSetting.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="groupBoxSendData.Text" xml:space="preserve">
+    <value>发送数据</value>
+  </data>
+  <data name="menuStrip1.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>pt-BR</value>
-  </metadata>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <data name="&gt;&gt;comboBoxStopBit.Name" xml:space="preserve">
+    <value>comboBoxStopBit</value>
+  </data>
+  <data name="&gt;&gt;groupBoxReceiveSetting.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="groupBoxReceiveData.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="textBoxReceive.Size" type="System.Drawing.Size, System.Drawing">
+    <value>270, 193</value>
+  </data>
+  <data name="&gt;&gt;label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 37</value>
+  </data>
+  <data name="&gt;&gt;buttonSendData.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="comboBoxBaudRate.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;comboBoxBaudRate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="comboBoxCom.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="groupBoxReceiveSetting.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 100</value>
+  </data>
+  <data name="groupBoxSendData.Location" type="System.Drawing.Point, System.Drawing">
+    <value>254, 384</value>
+  </data>
+  <data name="groupBoxSerialPortSetting.Text" xml:space="preserve">
+    <value>串口设置</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 70</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
-  </metadata>
-  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>65</value>
-  </metadata>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>7, 17</value>
   </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>569, 512</value>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
-  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft YaHei, 9pt</value>
+  <data name="&gt;&gt;buttonOpenCloseCom.Name" xml:space="preserve">
+    <value>buttonOpenCloseCom</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 174</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxReceive.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="radioButtonReceiveDataASCII.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 21</value>
+  </data>
+  <data name="ExitToolStripMenuItem.Text" xml:space="preserve">
+    <value>退出</value>
+  </data>
+  <data name="radioButtonReceiveDataHEX.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="comboBoxBaudRate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 25</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 17</value>
+  </data>
+  <data name="&gt;&gt;comboBoxStopBit.Parent" xml:space="preserve">
+    <value>groupBoxSerialPortSetting</value>
+  </data>
+  <data name="&gt;&gt;buttonSendData.Parent" xml:space="preserve">
+    <value>groupBoxSendData</value>
+  </data>
+  <data name="&gt;&gt;comboBoxCheckBit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="textBoxSend.Size" type="System.Drawing.Size, System.Drawing">
+    <value>270, 45</value>
+  </data>
+  <data name="radioButtonSendDataASCII.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 23</value>
+  </data>
+  <data name="&gt;&gt;radioButtonSendDataHex.Parent" xml:space="preserve">
+    <value>groupBoxSendSetting</value>
+  </data>
+  <data name="label1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <data name="ContributorSylvesterLiToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 22</value>
+  </data>
+  <data name="radioButtonSendDataASCII.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 21</value>
+  </data>
+  <data name="&gt;&gt;comboBoxStopBit.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>波特率</value>
+  </data>
+  <data name="AuthorToolStripMenuItem.Text" xml:space="preserve">
+    <value>作者：NaiHai</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Name" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="SaveReceiveDataToFileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 22</value>
+  </data>
+  <data name="&gt;&gt;AboutToolStripMenuItem.Name" xml:space="preserve">
+    <value>AboutToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;toolStrip1.Name" xml:space="preserve">
+    <value>toolStrip1</value>
+  </data>
+  <data name="ContributorSylvesterLiToolStripMenuItem.Text" xml:space="preserve">
+    <value>贡献者：Sylvester Li</value>
+  </data>
+  <data name="&gt;&gt;groupBoxSendSetting.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="buttonClearRecData.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="&gt;&gt;groupBoxReceiveData.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ContributorSylvesterLiToolStripMenuItem.Name" xml:space="preserve">
+    <value>ContributorSylvesterLiToolStripMenuItem</value>
+  </data>
+  <data name="MenuTools.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 20</value>
+  </data>
+  <data name="&gt;&gt;SaveReceiveDataToFileToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>校验位</value>
+  </data>
+  <data name="&gt;&gt;comboBoxBaudRate.Name" xml:space="preserve">
+    <value>comboBoxBaudRate</value>
+  </data>
+  <data name="&gt;&gt;buttonClearRecData.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonClearRecData.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="toolStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>569, 25</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 17</value>
+  </data>
+  <data name="textBoxSend.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 19</value>
+  </data>
+  <data name="&gt;&gt;toolStrip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBoxSendSetting.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="AboutToolStripMenuItem.Text" xml:space="preserve">
+    <value>关于</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>MainForm</value>
+  </data>
+  <data name="radioButtonSendDataASCII.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="textBoxReceive.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;AuthorToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuFile.Name" xml:space="preserve">
+    <value>MenuFile</value>
+  </data>
+  <data name="&gt;&gt;groupBoxReceiveSetting.Name" xml:space="preserve">
+    <value>groupBoxReceiveSetting</value>
+  </data>
+  <data name="buttonOpenCloseCom.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;radioButtonReceiveDataHEX.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBoxReceiveSetting.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="Button_Refresh.Text" xml:space="preserve">
+    <value>刷新串口列表</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>数据位</value>
+  </data>
+  <data name="&gt;&gt;comboBoxDataBit.Name" xml:space="preserve">
+    <value>comboBoxDataBit</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -976,76 +967,85 @@
         MAPwADgH/gA4D//gOB///Hx///////////8=
 </value>
   </data>
-  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
+  <data name="&gt;&gt;radioButtonSendDataHex.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>串口调试软件</value>
+  <data name="label5.Text" xml:space="preserve">
+    <value>停止位</value>
   </data>
-  <data name="&gt;&gt;MenuFile.Name" xml:space="preserve">
-    <value>MenuFile</value>
+  <data name="label5.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="radioButtonSendDataHex.Location" type="System.Drawing.Point, System.Drawing">
+    <value>82, 22</value>
+  </data>
+  <data name="toolStrip1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
   </data>
   <data name="&gt;&gt;MenuFile.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;SaveReceiveDataToFileToolStripMenuItem.Name" xml:space="preserve">
-    <value>SaveReceiveDataToFileToolStripMenuItem</value>
+  <data name="&gt;&gt;textBoxReceive.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;SaveReceiveDataToFileToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="groupBoxSendData.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
   </data>
-  <data name="&gt;&gt;ExitToolStripMenuItem.Name" xml:space="preserve">
-    <value>ExitToolStripMenuItem</value>
+  <data name="menuStrip1.Text" xml:space="preserve">
+    <value>menuStrip1</value>
   </data>
-  <data name="&gt;&gt;ExitToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="MenuIHelp.Text" xml:space="preserve">
+    <value>帮助</value>
   </data>
-  <data name="&gt;&gt;MenuTools.Name" xml:space="preserve">
-    <value>MenuTools</value>
+  <data name="&gt;&gt;groupBoxSendData.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
-  <data name="&gt;&gt;MenuTools.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;Button_Refresh.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
-  <data name="&gt;&gt;MenuSetting.Name" xml:space="preserve">
-    <value>MenuSetting</value>
+  <data name="comboBoxBaudRate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>63, 65</value>
   </data>
-  <data name="&gt;&gt;MenuSetting.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="textBoxSend.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
   </data>
-  <data name="&gt;&gt;ResetPortConfToolStripMenuItem.Name" xml:space="preserve">
-    <value>ResetPortConfToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;ResetPortConfToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;MenuIHelp.Name" xml:space="preserve">
-    <value>MenuIHelp</value>
-  </data>
-  <data name="&gt;&gt;MenuIHelp.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;AboutToolStripMenuItem.Name" xml:space="preserve">
-    <value>AboutToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;AboutToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;AuthorToolStripMenuItem.Name" xml:space="preserve">
-    <value>AuthorToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;AuthorToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ContributorSylvesterLiToolStripMenuItem.Name" xml:space="preserve">
-    <value>ContributorSylvesterLiToolStripMenuItem</value>
+  <data name="&gt;&gt;groupBoxReceiveSetting.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;ContributorSylvesterLiToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>MainForm</value>
+  <data name="comboBoxDataBit.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
   </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="MenuFile.Text" xml:space="preserve">
+    <value>文件</value>
   </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="MenuTools.Text" xml:space="preserve">
+    <value>工具</value>
+  </data>
+  <data name="&gt;&gt;AboutToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>pt-BR</value>
+  </metadata>
+  <metadata name="toolStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>137, 17</value>
+  </metadata>
+  <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>65</value>
+  </metadata>
 </root>
