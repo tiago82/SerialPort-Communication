@@ -3,7 +3,7 @@ Serial Communication Implemented in C#
 
 The following latest rendering is from https://github.com/SylvesterLi/SerialPort-Communication
 
-The compiled executable file is in the Release folderhttps://github.com/naihaishy/SerialPort-Communication/releases
+The compiled executable file is in the Release folder https://github.com/naihaishy/SerialPort-Communication/releases
 
 ## WinForm
 #
