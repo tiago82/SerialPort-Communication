@@ -36,7 +36,8 @@ namespace SerialCom
             string[] str = SerialPort.GetPortNames();
             if (str == null)
             {
-                MessageBox.Show("本机没有串口！", "Error");
+                //MessageBox.Show("本机没有串口！", "Error");
+                MessageBox.Show("Este computador não possui portas seriais!", "Error");
                 return;
             }
             //添加串口
@@ -120,7 +121,8 @@ namespace SerialCom
                     
                     if (comboBoxCom.SelectedIndex == -1)
                     {
-                        MessageBox.Show("Error: 无效的端口,请重新选择", "Error");
+                        //MessageBox.Show("Error: 无效的端口,请重新选择", "Error");
+                        MessageBox.Show("Erro: porta inválida, por favor, escolha novamente.", "Error");
                         return;
                     }
                     string strSerialName    = comboBoxCom.SelectedItem.ToString();
@@ -150,7 +152,8 @@ namespace SerialCom
                             serialPort.StopBits = StopBits.Two;
                             break;
                         default:
-                            MessageBox.Show("Error：停止位参数不正确!", "Error");
+                            //MessageBox.Show("Error：停止位参数不正确!", "Error");
+                            MessageBox.Show("Error：Parâmetro de bits de parada incorreto!", "Error");
                             break;
                     }
                     switch (strCheckBit)             //校验位
@@ -165,7 +168,8 @@ namespace SerialCom
                             serialPort.Parity = Parity.Even;
                             break;
                         default:
-                            MessageBox.Show("Error：校验位参数不正确!", "Error");
+                            //MessageBox.Show("Error：校验位参数不正确!", "Error");
+                            MessageBox.Show("Error：Parâmetro de bit de paridade incorreto!", "Error");
                             break;
                     }
 
@@ -192,7 +196,8 @@ namespace SerialCom
                     buttonSendData.Enabled = true;
                     Button_Refresh.Enabled = false;
 
-                    buttonOpenCloseCom.Text = "关闭串口";
+                    //buttonOpenCloseCom.Text = "关闭串口";
+                    buttonOpenCloseCom.Text = "Fechar porta serial";
 
                 }
                 catch(System.Exception ex)
@@ -218,7 +223,8 @@ namespace SerialCom
                 buttonSendData.Enabled = false;
                 Button_Refresh.Enabled = true;
 
-                buttonOpenCloseCom.Text = "打开串口";
+                //buttonOpenCloseCom.Text = "打开串口";
+                buttonOpenCloseCom.Text = "Abrir porta serial";
 
                 if (saveDataFS != null)
                 {
@@ -257,7 +263,8 @@ namespace SerialCom
                     }
                     catch(System.Exception ex)
                     {
-                        MessageBox.Show(ex.Message, "你波特率是不是有问题？？？");
+                        //MessageBox.Show(ex.Message, "你波特率是不是有问题？？？");
+                        MessageBox.Show(ex.Message, "A sua taxa de baud está com algum problema???");
                         return;
                     }
                     
@@ -303,7 +310,9 @@ namespace SerialCom
             }
             else
             {
-                MessageBox.Show("请打开某个串口", "错误提示");
+                //MessageBox.Show("请打开某个串口", "错误提示");
+                MessageBox.Show("Por favor, abra uma porta serial", "Mensagem de Erro");
+
             }
         }
 
@@ -312,7 +321,8 @@ namespace SerialCom
         {
             if (!serialPort.IsOpen)
             {
-                MessageBox.Show("请先打开串口", "Error");
+                //MessageBox.Show("请先打开串口", "Error");
+                MessageBox.Show("Por favor, abra a porta serial primeiro", "Error");
                 return;
             }
 
@@ -377,7 +387,8 @@ namespace SerialCom
             string[] str = SerialPort.GetPortNames();
             if (str == null)
             {
-                MessageBox.Show("本机没有串口！", "Error");
+                //MessageBox.Show("本机没有串口！", "Error");
+                MessageBox.Show("Este computador não tem portas seriais!", "Error");
                 return;
             }
 
@@ -430,7 +441,8 @@ namespace SerialCom
         {
             SaveFileDialog saveFileDialog = new SaveFileDialog();
             saveFileDialog.Filter = "Txt |*.txt";
-            saveFileDialog.Title = "保存接收到的数据到文件中";
+            //saveFileDialog.Title = "保存接收到的数据到文件中";
+            saveFileDialog.Title = "Salvar os dados recebidos em um arquivo";
             saveFileDialog.ShowDialog();
 
             if (saveFileDialog.FileName != null)
