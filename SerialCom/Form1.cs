@@ -237,85 +237,68 @@ namespace SerialCom
         }
 
         // Recebe os dados
-        private void dataReceived(object sender, SerialDataReceivedEventArgs e)
+       private void dataReceived(object sender, SerialDataReceivedEventArgs e)
+{
+    if (serialPort.IsOpen)
+    {
+        // Verifica se há bytes para ler
+        if (serialPort.BytesToRead > 0)
         {
-            if (serialPort.IsOpen)
+            // Saída para o textbox com a hora atual
+            DateTime dateTimeNow = DateTime.Now;
+            string timeNow = DateTime.Now.ToString("HH:mm:ss");
+            textBoxReceive.Invoke((MethodInvoker)delegate
             {
-                //MessageBox.Show("sss","OK");
-                //输出当前时间
-                //DateTime dateTimeNow = DateTime.Now;
-                //dateTimeNow.GetDateTimeFormats();
-                //textBoxReceive.Text += string.Format("{0}\r\n", dateTimeNow);
-                //dateTimeNow.GetDateTimeFormats('f')[0].ToString() + "\r\n";
-               // textBoxReceive.ForeColor = Color.Red;    //改变字体的颜色
+                textBoxReceive.Text += $"{timeNow}\r\n";
+                textBoxReceive.ForeColor = Color.Red;
+            });
 
-                if (radioButtonReceiveDataASCII.Checked == true) // Recebe em formato ASCII
+            string input = serialPort.ReadExisting();
+
+            textBoxReceive.Invoke((MethodInvoker)delegate
+            {
+                if (radioButtonReceiveDataASCII.Checked == true) // Recebimento em formato ASCII
                 {
-                    try
+                    textBoxReceive.Text += input + "\r\n";
+
+                    // Salva os dados no arquivo, se necessário
+                    if (saveDataFS != null)
                     {
-                        String input = serialPort.ReadLine();
-                        textBoxReceive.Text += input + "\r\n";
-                        // Salva os dados em um arquivo
-                        if (saveDataFS != null)
-                        {
-                            byte[] info = new UTF8Encoding(true).GetBytes(input + "\r\n");
-                            saveDataFS.Write(info, 0, info.Length);
-                        }
+                        byte[] info = new UTF8Encoding(true).GetBytes(input + "\r\n");
+                        saveDataFS.Write(info, 0, info.Length);
                     }
-                    catch(System.Exception ex)
-                    {
-                        //MessageBox.Show(ex.Message, "你波特率是不是有问题？？？");
-                        MessageBox.Show(ex.Message, "A sua taxa de baud está com algum problema???");
-                        return;
-                    }
-                    
+
                     textBoxReceive.SelectionStart = textBoxReceive.Text.Length;
-                    textBoxReceive.ScrollToCaret();//滚动到光标处
-                    serialPort.DiscardInBuffer(); // Limpa o buffer do SerialPort
+                    textBoxReceive.ScrollToCaret();
                 }
-                else // Recebe em formato HEX
+                else // Recebimento em formato HEX
                 {
-                    try
+                    char[] values = input.ToCharArray();
+                    foreach (char letter in values)
                     {
-
-                        string input = serialPort.ReadLine();
-                        char[] values = input.ToCharArray();
-                        foreach (char letter in values)
-                        {
-                            // Get the integral value of the character.
-                            int value = Convert.ToInt32(letter);
-                            // Convert the decimal value to a hexadecimal value in string form.
-                            string hexOutput = String.Format("{0:X}", value);
-                            textBoxReceive.AppendText(hexOutput + " ");
-                            textBoxReceive.SelectionStart = textBoxReceive.Text.Length;
-                            textBoxReceive.ScrollToCaret();//滚动到光标处
-                            //textBoxReceive.Text += hexOutput + " ";
-
-                        }
-
-                        // Salva os dados em um arquivo
-                        if (saveDataFS != null)
-                        {
-                            byte[] info = new UTF8Encoding(true).GetBytes(input + "\r\n");
-                            saveDataFS.Write(info, 0, info.Length);
-                        }
-
-
+                        int value = Convert.ToInt32(letter);
+                        string hexOutput = String.Format("{0:X}", value);
+                        textBoxReceive.AppendText(hexOutput + " ");
+                        textBoxReceive.SelectionStart = textBoxReceive.Text.Length;
+                        textBoxReceive.ScrollToCaret();
                     }
-                    catch(System.Exception ex)
+
+                    // Salva os dados no arquivo, se necessário
+                    if (saveDataFS != null)
                     {
-                        MessageBox.Show(ex.Message, "Error");
-                        textBoxReceive.Text = "";// Limpa
+                        byte[] info = new UTF8Encoding(true).GetBytes(input + "\r\n");
+                        saveDataFS.Write(info, 0, info.Length);
                     }
                 }
-            }
-            else
-            {
-                //MessageBox.Show("请打开某个串口", "错误提示");
-                MessageBox.Show("Por favor, abra uma porta serial", "Mensagem de Erro");
-
-            }
+            });
         }
+    }
+    else
+    {
+        MessageBox.Show("Por favor, abra uma porta serial", "Mensagem de Erro");
+    }
+}
+
 
         // Envia dados
         private void buttonSendData_Click(object sender, EventArgs e)
