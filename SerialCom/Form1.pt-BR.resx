@@ -118,6 +118,165 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="SaveReceiveDataToFileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>209, 22</value>
+  </data>
+  <data name="SaveReceiveDataToFileToolStripMenuItem.Text" xml:space="preserve">
+    <value>Salvar os dados recebidos</value>
+  </data>
+  <data name="ExitToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>209, 22</value>
+  </data>
+  <data name="ExitToolStripMenuItem.Text" xml:space="preserve">
+    <value>Sair</value>
+  </data>
+  <data name="MenuFile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 20</value>
+  </data>
+  <data name="MenuFile.Text" xml:space="preserve">
+    <value>Arquivo</value>
+  </data>
+  <data name="MenuTools.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 20</value>
+  </data>
+  <data name="MenuTools.Text" xml:space="preserve">
+    <value>Ferramenta</value>
+  </data>
+  <data name="ResetPortConfToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>281, 22</value>
+  </data>
+  <data name="ResetPortConfToolStripMenuItem.Text" xml:space="preserve">
+    <value>Resetar as configurações da porta serial</value>
+  </data>
+  <data name="MenuSetting.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 20</value>
+  </data>
+  <data name="MenuSetting.Text" xml:space="preserve">
+    <value>Configurações</value>
+  </data>
+  <data name="AboutToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 22</value>
+  </data>
+  <data name="AboutToolStripMenuItem.Text" xml:space="preserve">
+    <value>Sobre</value>
+  </data>
+  <data name="MenuIHelp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 20</value>
+  </data>
+  <data name="MenuIHelp.Text" xml:space="preserve">
+    <value>Ajuda</value>
+  </data>
+  <data name="comboBoxStopBit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 221</value>
+  </data>
+  <data name="comboBoxCheckBit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 173</value>
+  </data>
+  <data name="comboBoxDataBit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 125</value>
+  </data>
+  <data name="comboBoxBaudRate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 77</value>
+  </data>
+  <data name="comboBoxCom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 34</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 201</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 17</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Bit de parada</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 153</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 17</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Bit de paridade</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 105</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 17</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Bits de dados</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 62</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 17</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Baud rate</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 19</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 17</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Porta de comunicação</value>
+  </data>
+  <data name="groupBoxSerialPortSetting.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 263</value>
+  </data>
+  <data name="groupBoxSerialPortSetting.Text" xml:space="preserve">
+    <value>Configuração de porta serial</value>
+  </data>
+  <data name="buttonOpenCloseCom.Text" xml:space="preserve">
+    <value>Abrir a porta serial</value>
+  </data>
+  <data name="groupBoxSendSetting.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 322</value>
+  </data>
+  <data name="groupBoxSendSetting.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 64</value>
+  </data>
+  <data name="groupBoxSendSetting.Text" xml:space="preserve">
+    <value>Configuração de envio</value>
+  </data>
+  <data name="groupBoxReceiveSetting.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 403</value>
+  </data>
+  <data name="groupBoxReceiveSetting.Text" xml:space="preserve">
+    <value>Configuração de recepção</value>
+  </data>
+  <data name="buttonClearRecData.Text" xml:space="preserve">
+    <value>Limpar</value>
+  </data>
+  <data name="groupBoxReceiveData.Size" type="System.Drawing.Size, System.Drawing">
+    <value>276, 264</value>
+  </data>
+  <data name="groupBoxReceiveData.Text" xml:space="preserve">
+    <value>Receber dados</value>
+  </data>
+  <data name="buttonSendData.Text" xml:space="preserve">
+    <value>Enviar</value>
+  </data>
+  <data name="groupBoxSendData.Location" type="System.Drawing.Point, System.Drawing">
+    <value>254, 357</value>
+  </data>
+  <data name="groupBoxSendData.Size" type="System.Drawing.Size, System.Drawing">
+    <value>276, 113</value>
+  </data>
+  <data name="groupBoxSendData.Text" xml:space="preserve">
+    <value>Enviar dados</value>
+  </data>
+  <data name="Button_Refresh.Text" xml:space="preserve">
+    <value>Atualizar a lista de portas seriais</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>569, 521</value>
+  </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAABAAEAICAAAAEAIACoEAAAFgAAACgAAAAgAAAAQAAAAAEAIAAAAAAAABAAABILAAASCwAAAAAAAAAA
@@ -196,71 +355,5 @@
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Software de depuração de porta serial</value>
-  </data>
-  <data name="AboutToolStripMenuItem.Text" xml:space="preserve">
-    <value>Sobre</value>
-  </data>
-  <data name="buttonClearRecData.Text" xml:space="preserve">
-    <value>Limpar</value>
-  </data>
-  <data name="buttonOpenCloseCom.Text" xml:space="preserve">
-    <value>Abrir a porta serial</value>
-  </data>
-  <data name="buttonSendData.Text" xml:space="preserve">
-    <value>Enviar</value>
-  </data>
-  <data name="Button_Refresh.Text" xml:space="preserve">
-    <value>Atualizar a lista de portas seriais</value>
-  </data>
-  <data name="ExitToolStripMenuItem.Text" xml:space="preserve">
-    <value>Sair</value>
-  </data>
-  <data name="groupBoxReceiveData.Text" xml:space="preserve">
-    <value>Receber dados</value>
-  </data>
-  <data name="groupBoxReceiveSetting.Text" xml:space="preserve">
-    <value>Configuração de recepção</value>
-  </data>
-  <data name="groupBoxSendData.Text" xml:space="preserve">
-    <value>Enviar dados</value>
-  </data>
-  <data name="groupBoxSendSetting.Text" xml:space="preserve">
-    <value>Configuração de envio</value>
-  </data>
-  <data name="groupBoxSerialPortSetting.Text" xml:space="preserve">
-    <value>Configuração de porta serial</value>
-  </data>
-  <data name="label1.Text" xml:space="preserve">
-    <value>Porta de comunicação</value>
-  </data>
-  <data name="label2.Text" xml:space="preserve">
-    <value>Baud rate</value>
-  </data>
-  <data name="label3.Text" xml:space="preserve">
-    <value>bits de dados</value>
-  </data>
-  <data name="label4.Text" xml:space="preserve">
-    <value>bit de paridade</value>
-  </data>
-  <data name="label5.Text" xml:space="preserve">
-    <value>bit de parada</value>
-  </data>
-  <data name="MenuFile.Text" xml:space="preserve">
-    <value>Arquivo</value>
-  </data>
-  <data name="MenuIHelp.Text" xml:space="preserve">
-    <value>Ajuda</value>
-  </data>
-  <data name="MenuSetting.Text" xml:space="preserve">
-    <value>Configurações</value>
-  </data>
-  <data name="MenuTools.Text" xml:space="preserve">
-    <value>Ferramenta</value>
-  </data>
-  <data name="ResetPortConfToolStripMenuItem.Text" xml:space="preserve">
-    <value>Resetar as configurações da porta serial</value>
-  </data>
-  <data name="SaveReceiveDataToFileToolStripMenuItem.Text" xml:space="preserve">
-    <value>Salvar os dados recebidos</value>
   </data>
 </root>

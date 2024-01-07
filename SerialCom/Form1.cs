@@ -440,5 +440,25 @@ namespace SerialCom
 
 
         }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboBoxBaudRate_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboBoxDataBit_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void groupBoxReceiveSetting_Enter(object sender, EventArgs e)
+        {
+
+        }
     }
 }
