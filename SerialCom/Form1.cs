@@ -236,26 +236,26 @@ namespace SerialCom
             }
         }
 
-        //接收数据
+        // Recebe os dados
         private void dataReceived(object sender, SerialDataReceivedEventArgs e)
         {
             if (serialPort.IsOpen)
             {
                 //MessageBox.Show("sss","OK");
                 //输出当前时间
-                DateTime dateTimeNow = DateTime.Now;
+                //DateTime dateTimeNow = DateTime.Now;
                 //dateTimeNow.GetDateTimeFormats();
-                textBoxReceive.Text += string.Format("{0}\r\n", dateTimeNow);
+                //textBoxReceive.Text += string.Format("{0}\r\n", dateTimeNow);
                 //dateTimeNow.GetDateTimeFormats('f')[0].ToString() + "\r\n";
-                textBoxReceive.ForeColor = Color.Red;    //改变字体的颜色
+               // textBoxReceive.ForeColor = Color.Red;    //改变字体的颜色
 
-                if (radioButtonReceiveDataASCII.Checked == true) //接收格式为ASCII
+                if (radioButtonReceiveDataASCII.Checked == true) // Recebe em formato ASCII
                 {
                     try
                     {
                         String input = serialPort.ReadLine();
                         textBoxReceive.Text += input + "\r\n";
-                        // save data to file
+                        // Salva os dados em um arquivo
                         if (saveDataFS != null)
                         {
                             byte[] info = new UTF8Encoding(true).GetBytes(input + "\r\n");
@@ -271,9 +271,9 @@ namespace SerialCom
                     
                     textBoxReceive.SelectionStart = textBoxReceive.Text.Length;
                     textBoxReceive.ScrollToCaret();//滚动到光标处
-                    serialPort.DiscardInBuffer(); //清空SerialPort控件的Buffer 
+                    serialPort.DiscardInBuffer(); // Limpa o buffer do SerialPort
                 }
-                else //接收格式为HEX
+                else // Recebe em formato HEX
                 {
                     try
                     {
@@ -293,7 +293,7 @@ namespace SerialCom
 
                         }
 
-                        // save data to file
+                        // Salva os dados em um arquivo
                         if (saveDataFS != null)
                         {
                             byte[] info = new UTF8Encoding(true).GetBytes(input + "\r\n");
@@ -305,7 +305,7 @@ namespace SerialCom
                     catch(System.Exception ex)
                     {
                         MessageBox.Show(ex.Message, "Error");
-                        textBoxReceive.Text = "";//清空
+                        textBoxReceive.Text = "";// Limpa
                     }
                 }
             }
@@ -317,7 +317,7 @@ namespace SerialCom
             }
         }
 
-        //发送数据
+        // Envia dados
         private void buttonSendData_Click(object sender, EventArgs e)
         {
             if (!serialPort.IsOpen)
@@ -328,15 +328,15 @@ namespace SerialCom
             }
 
             String strSend = textBoxSend.Text;//发送框数据
-            if (radioButtonSendDataASCII.Checked == true)//以字符串 ASCII 发送
+            if (radioButtonSendDataASCII.Checked == true)// Envia em formato ASCII
             {
                 serialPort.WriteLine(strSend);//发送一行数据 
 
             }
             else
             {
-                //16进制数据格式 HXE 发送
-                 
+                // Envia em formato HEX
+
                 char[] values = strSend.ToCharArray();
                 foreach (char letter in values)
                 {
@@ -354,7 +354,7 @@ namespace SerialCom
 
         }
 
-        //清空接收数据框
+        // Limpa a caixa de recepção de dados
         private void buttonClearRecData_Click(object sender, EventArgs e)
         {
             
@@ -363,23 +363,23 @@ namespace SerialCom
         }
 
 
-        //窗体关闭时
+        // Quando o formulário é fechado
         private void MainForm_Closing(object sender, EventArgs e)
         {
             if (serialPort.IsOpen)
             {
-                serialPort.Close();//关闭串口
+                serialPort.Close();// Fecha a porta serial
             }
 
             if (saveDataFS != null)
             {
-                saveDataFS.Close(); // 关闭文件
-                saveDataFS = null;//释放文件句柄
+                saveDataFS.Close(); // Fecha o arquivo
+                saveDataFS = null;// Libera o handle do arquivo
             }
 
         }
 
-        //刷新串口
+        // Atualiza as portas seriais disponíveis
         private void Button_Refresh_Click(object sender, EventArgs e)
         {
             comboBoxCom.Text = "";
@@ -393,13 +393,13 @@ namespace SerialCom
                 return;
             }
 
-            //添加串口
+            // Adiciona as portas seriais disponíveis ao combobox
             foreach (string s in str)
             {
                 comboBoxCom.Items.Add(s);
             }
 
-            //设置默认串口
+            // Define a primeira porta serial como a selecionada por padrão
             comboBoxCom.SelectedIndex = 0;
             comboBoxBaudRate.SelectedIndex = 0;
             comboBoxDataBit.SelectedIndex = 3;
@@ -408,7 +408,7 @@ namespace SerialCom
 
         }
 
-        // 退出
+        // Sair
         private void ExitToolStripMenuItem_Click(object sender, EventArgs e)
         {
             if (serialPort.IsOpen)
@@ -424,7 +424,7 @@ namespace SerialCom
             this.Close();
         }
 
-        // 重置串口参数设置
+        // Reseta as configurações da porta serial
         private void ResetPortConfToolStripMenuItem_Click(object sender, EventArgs e)
         {
             comboBoxCom.SelectedIndex = 0;
@@ -437,7 +437,7 @@ namespace SerialCom
 
         }
 
-        // 保存接收数据到文件
+        // Salva os dados recebidos em um arquivo
         private void SaveReceiveDataToFileToolStripMenuItem_Click(object sender, EventArgs e)
         {
             SaveFileDialog saveFileDialog = new SaveFileDialog();
