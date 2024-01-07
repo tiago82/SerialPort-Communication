@@ -198,7 +198,7 @@
     <value>Software de depuração de porta serial</value>
   </data>
   <data name="AboutToolStripMenuItem.Text" xml:space="preserve">
-    <value>sobre</value>
+    <value>Sobre</value>
   </data>
   <data name="buttonClearRecData.Text" xml:space="preserve">
     <value>Limpar</value>
