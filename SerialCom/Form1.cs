@@ -15,7 +15,7 @@ namespace SerialCom
     public partial class MainForm : Form
     {
 
-        //实例化串口对象
+        //Instanciação do objeto da porta serial
         SerialPort serialPort = new SerialPort();
 
         String saveDataFile = null;
@@ -27,12 +27,13 @@ namespace SerialCom
         }
 
 
-        //初始化串口界面参数设置
+        // Inicializa as configurações de interface da porta serial
+
         private void Init_Port_Confs()
         {
-            /*------串口界面参数设置------*/
+            /*------ Configurações da Interface Serial ------*/
 
-            //检查是否含有串口
+            // Verifica se há portas seriais disponíveis
             string[] str = SerialPort.GetPortNames();
             if (str == null)
             {
@@ -40,15 +41,15 @@ namespace SerialCom
                 MessageBox.Show("Este computador não possui portas seriais!", "Error");
                 return;
             }
-            //添加串口
+            //Adiciona as portas seriais disponíveis ao combobox
             foreach (string s in str)
             {
                 comboBoxCom.Items.Add(s);
             }
-            //设置默认串口选项
+            //Define a primeira porta serial como a selecionada por padrão
             comboBoxCom.SelectedIndex = 0;
 
-            /*------波特率设置-------*/
+            /*------ Configurações de Baud Rate -------*/
             string[] baudRate = { "9600", "19200", "38400", "57600", "115200" };
             foreach (string s in baudRate)
             {
@@ -56,7 +57,7 @@ namespace SerialCom
             }
             comboBoxBaudRate.SelectedIndex = 0;
 
-            /*------数据位设置-------*/
+            /*------ Configurações de Data Bit (Bits de Dados) -------*/
             string[] dataBit = { "5", "6", "7", "8" };
             foreach (string s in dataBit)
             {
@@ -65,7 +66,7 @@ namespace SerialCom
             comboBoxDataBit.SelectedIndex = 3;
 
 
-            /*------校验位设置-------*/
+            /*------ Configurações de Check Bit (Bit de Paridade) -------*/
             string[] checkBit = { "None", "Even", "Odd", "Mask", "Space" };
             foreach (string s in checkBit)
             {
@@ -74,7 +75,7 @@ namespace SerialCom
             comboBoxCheckBit.SelectedIndex = 0;
 
 
-            /*------停止位设置-------*/
+            /*------ Configurações de Stop Bit (Bit de Parada) -------*/
             string[] stopBit = { "1", "1.5", "2" };
             foreach (string s in stopBit)
             {
@@ -82,12 +83,12 @@ namespace SerialCom
             }
             comboBoxStopBit.SelectedIndex = 0;
 
-            /*------数据格式设置-------*/
+            /*------ Configurações de Formato de Dados -------*/
             radioButtonSendDataASCII.Checked = true;
             radioButtonReceiveDataASCII.Checked = true;
         }
 
-        //加载主窗体
+        // Carrega o formulário principal
         private void MainForm_Load(object sender, EventArgs e)
         {
 
@@ -97,10 +98,10 @@ namespace SerialCom
             serialPort.DataReceived += new SerialDataReceivedEventHandler(dataReceived);
 
 
-            //准备就绪              
+            // Pronto para uso          
             serialPort.DtrEnable = true;
             serialPort.RtsEnable = true;
-            //设置数据读取超时为1秒
+            // Define o tempo de leitura de dados como 1 segundo
             serialPort.ReadTimeout = 1000;
 
             serialPort.Close();
@@ -110,10 +111,10 @@ namespace SerialCom
         }
 
 
-        //打开串口 关闭串口
+        // Abre ou fecha a porta serial
         private void buttonOpenCloseCom_Click(object sender, EventArgs e)
         {
-            if (!serialPort.IsOpen)//串口处于关闭状态
+            if (!serialPort.IsOpen)// Se a porta serial estiver fechada
             {
                 
                 try
@@ -134,13 +135,13 @@ namespace SerialCom
                     Int32 iBaudRate = Convert.ToInt32(strBaudRate);
                     Int32 iDataBit  = Convert.ToInt32(strDataBit);
 
-                    serialPort.PortName = strSerialName;//串口号
-                    serialPort.BaudRate = iBaudRate;//波特率
-                    serialPort.DataBits = iDataBit;//数据位
+                    serialPort.PortName = strSerialName;// Nome da porta serial
+                    serialPort.BaudRate = iBaudRate;// Baud Rate
+                    serialPort.DataBits = iDataBit;// Bits de Dados
 
-                    
 
-                    switch (strStopBit)            //停止位
+
+                    switch (strStopBit)            // Bit de Parada
                     {
                         case "1":
                             serialPort.StopBits = StopBits.One;
@@ -156,7 +157,7 @@ namespace SerialCom
                             MessageBox.Show("Error：Parâmetro de bits de parada incorreto!", "Error");
                             break;
                     }
-                    switch (strCheckBit)             //校验位
+                    switch (strCheckBit)             // Bit de Paridade
                     {
                         case "None":
                             serialPort.Parity = Parity.None;
@@ -180,10 +181,10 @@ namespace SerialCom
                         saveDataFS = File.Create(saveDataFile);
                     }
 
-                    //打开串口
+                    // Abre a porta serial
                     serialPort.Open();
 
-                    //打开串口后设置将不再有效
+                    // As configurações não serão mais válidas após abrir a porta serial
                     comboBoxCom.Enabled = false;
                     comboBoxBaudRate.Enabled = false;
                     comboBoxDataBit.Enabled = false;
@@ -206,11 +207,11 @@ namespace SerialCom
                     return;
                 }
             }
-            else //串口处于打开状态
+            else // Se a porta serial estiver aberta
             {
                 
-                serialPort.Close();//关闭串口
-                //串口关闭时设置有效
+                serialPort.Close();// Fecha a porta serial
+                // Configurações válidas quando a porta serial está fechada
                 comboBoxCom.Enabled = true;
                 comboBoxBaudRate.Enabled = true;
                 comboBoxDataBit.Enabled = true;
