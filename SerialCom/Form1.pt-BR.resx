@@ -231,7 +231,7 @@
     <value>Configuração de porta serial</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>porta de comunicação</value>
+    <value>Porta de comunicação</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
     <value>Baud rate</value>
@@ -252,7 +252,7 @@
     <value>Ajuda</value>
   </data>
   <data name="MenuSetting.Text" xml:space="preserve">
-    <value>configurações</value>
+    <value>Configurações</value>
   </data>
   <data name="MenuTools.Text" xml:space="preserve">
     <value>Ferramenta</value>
