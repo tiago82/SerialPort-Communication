@@ -117,9 +117,6 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="buttonOpenCloseCom.Text" xml:space="preserve">
-    <value>打开串口 test</value>
-  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -196,5 +193,74 @@
         AAfgAAAH4AAAB+AAAAeAAAABgAAAAYAAAAGAAAABgAAAAYAAAAHQAAAH4AAAB+AAEAPgABAD4AAQA+AA
         MAPwADgH/gA4D//gOB///Hx///////////8=
 </value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Software de depuração de porta serial</value>
+  </data>
+  <data name="AboutToolStripMenuItem.Text" xml:space="preserve">
+    <value>sobre</value>
+  </data>
+  <data name="buttonClearRecData.Text" xml:space="preserve">
+    <value>Limpar</value>
+  </data>
+  <data name="buttonOpenCloseCom.Text" xml:space="preserve">
+    <value>Abrir a porta serial</value>
+  </data>
+  <data name="buttonSendData.Text" xml:space="preserve">
+    <value>Enviar</value>
+  </data>
+  <data name="Button_Refresh.Text" xml:space="preserve">
+    <value>Atualizar a lista de portas seriais</value>
+  </data>
+  <data name="ExitToolStripMenuItem.Text" xml:space="preserve">
+    <value>Sair</value>
+  </data>
+  <data name="groupBoxReceiveData.Text" xml:space="preserve">
+    <value>Receber dados</value>
+  </data>
+  <data name="groupBoxReceiveSetting.Text" xml:space="preserve">
+    <value>Configuração de recepção</value>
+  </data>
+  <data name="groupBoxSendData.Text" xml:space="preserve">
+    <value>Enviar dados</value>
+  </data>
+  <data name="groupBoxSendSetting.Text" xml:space="preserve">
+    <value>Configuração de envio</value>
+  </data>
+  <data name="groupBoxSerialPortSetting.Text" xml:space="preserve">
+    <value>Configuração de porta serial</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>porta de comunicação</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Baud rate</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>bits de dados</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>bit de paridade</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>bit de parada</value>
+  </data>
+  <data name="MenuFile.Text" xml:space="preserve">
+    <value>Arquivo</value>
+  </data>
+  <data name="MenuIHelp.Text" xml:space="preserve">
+    <value>Ajuda</value>
+  </data>
+  <data name="MenuSetting.Text" xml:space="preserve">
+    <value>configurações</value>
+  </data>
+  <data name="MenuTools.Text" xml:space="preserve">
+    <value>Ferramenta</value>
+  </data>
+  <data name="ResetPortConfToolStripMenuItem.Text" xml:space="preserve">
+    <value>Resetar as configurações da porta serial</value>
+  </data>
+  <data name="SaveReceiveDataToFileToolStripMenuItem.Text" xml:space="preserve">
+    <value>Salvar os dados recebidos</value>
   </data>
 </root>
